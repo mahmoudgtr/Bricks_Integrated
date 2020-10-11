@@ -33,27 +33,50 @@
                 <li class="nav-item mar">
                     <a class="nav-link" href="contact.php"><?php echo $expr['contact']; ?></a>
                 </li>
-                <li class="nav-item land">
-                <a class="nav-link  apper" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
-                <div class="searchbox">
-                    <input type="text">
-                    <input type="button" value="search" >
-                </div>        
-            </li>
-                <li class="nav-item dropdown lang">
+            </ul>
+            <ul class="navbar-nav mr-auto" id="bs-n">
+                <li class="nav-item">
+                    <a class="nav-link  apper" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                    <div class="searchbox">
+                        <input type="text">
+                        <input type="button" value="search" >
+                    </div>        
+                </li>
+                <li class="nav-item dropdown" id="bl-n">
                     <?php foreach ($dictionary as $key => $lang_dict): ?>
                     <?php if ($current_lang == $key): ?>
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <?php echo $lang_dict['name'] ?>
-        </a>
- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#"><?php echo $lang_dict['name'] ?></a>
-          <?php else: ?>
-            <a class="dropdown-item" href="lang.php?change=<?php echo $key?>"><?php echo $lang_dict['name'] ?></a>
-      </div>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <?php echo $lang_dict['name'] ?>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#"><?php echo $lang_dict['name'] ?></a>
+                          <?php else: ?>
+                            <a class="dropdown-item" href="lang.php?change=<?php echo $key?>"><?php echo $lang_dict['name'] ?></a>
+                        </div>
                 </li>
-            <?php endif ?>
-        <?php endforeach ?>
+                <?php endif ?>
+            <?php endforeach ?>
+            </ul>
+            <ul class="navbar-nav links-nav info-nav">
+                <li id="co-p-v">
+                <i class="fa fa-clock-o" id="co-c-v" aria-hidden="true"></i>
+                    Sunday- Thursday<br/>
+                    09:00AM  - 05:00PM
+                </li>
+                <li id="ma-p-v">
+                <i class="fa fa-map-marker" id="ma-c-v" aria-hidden="true"></i>
+                    AlQibla-Ahmed Al Jaber Street<br/>
+                    Al Zumorrodah Tower-22 floor
+                </li>
+                <li id="en-p-v">
+                <i class="fa fa-envelope-o" id="en-c-v" aria-hidden="true"></i>
+                    info@bricksintegrated.com 
+                </li>
+                <li class="social nav-item">
+                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                </li>
             </ul>
         </div>
     </div>

@@ -5,7 +5,7 @@ PSD Desighner: joseph
 */
 
 body{
-    background-color: #1D1D1B;
+    background-color: #1c1c1a;
     padding: 0;
     margin: 0;
     color: #fff;
@@ -95,26 +95,36 @@ body{
         bottom: 48px;
         right: -29px;   
     }
+
 }
 /*Start mobile V*/
 @media (max-width: 991.98px){
     .nav-mv-p{
-        background-color: red;
+        background-color: #fff;        
         position: absolute;
         left: 0;
         top: 0;
-        height: 100vh;
         width: 80%;
         z-index: 1515;
+        border: 1px solid #00000099;
     }
     .nav-mv-c{
         width: 100%;
         background-color: #fff;
         position: relative;
-        height: 55vh;
         margin-top: 73px!important;
-        padding-left: 30px;
-        padding-top: 60px;
+        padding: 70px 70px 0 70px;
+    }
+    .nav-mv-c::before{
+        content: "";
+        background-image: url("../img/Group10.svg");
+        width: 130PX;
+        height: 40PX;
+        background-size: 100% 100%;
+        position: absolute;
+        top: -8%;
+        left: 14%;
+        z-index: 546545;
     }
     .nav-mv-c::after{
         content: "";
@@ -123,7 +133,7 @@ body{
         height: 337px;
         background-size: 100% 100%;
         position: absolute;
-        bottom: 29px;
+        bottom: -28px;
         right: 53px;
 
     }
@@ -153,6 +163,80 @@ body{
         content: "";
         background-color: #1D1D1B;
     }
+    .links-nav{
+        background-color: #1D1D1B;
+        padding: 50px 70px 10px 70px;
+    }
+    .links-nav li{
+        
+    }
+    .links-nav li{
+        color: #fff;
+        font-size: 10px; 
+        padding-bottom: 20px;
+    }
+
+    #co-p-v,#ma-p-v,#en-p-v{
+        position: relative;
+    }
+    #co-c-v{
+        position: absolute;
+        font-size: 20px;
+        left: -42px;
+        top: 3px;
+    }
+
+    #ma-c-v{
+        position: absolute;
+        font-size: 20px;
+        left: -37px;
+        top: 3px;
+    }
+    #en-c-v{
+        position: absolute;
+        font-size: 20px;
+        left: -42px;
+        top: -7px;
+    }
+    .links-nav .social{
+        margin-top:5px; 
+    }
+    .links-nav li a > i{
+    color: #fff;
+    padding-right: 10px;
+    font-size: 20px;
+    }
+    #bl-n{
+    position: absolute;
+    top: 6%;
+    right: 13%;
+    width: 50px;
+    }
+    #bs-n li:first-child{
+        padding-left: 70px;
+    }
+    .dropdown-menu{
+    min-width: 4rem;
+    border-radius: 0;
+    background-color: #1D1D1B;
+    color: #fff;
+    }
+    .dropdown-menu > a{
+        color: #fff;
+    }
+}
+@media (min-width: 992px){
+    .links-nav{
+     display: none;
+    }
+    #bl-n{
+    border-left: 2px solid;
+
+    }
+    .dropdown-menu{
+    min-width: 4rem;
+    border-radius: 0;
+}
 }
 /*End mobile V*/
 @media (max-width: 1320px){
@@ -281,27 +365,27 @@ height: 400px;
 ul{
     list-style: none;
 }
-footer .info ul li{
+.info ul li{
     margin-bottom: 50px;
 }
-footer .links li,footer p,footer ul li {
+.links li,footer p,footer ul li {
     font-size: 14px;
 }
-footer .links li a{
+.links li a{
     color: #fff;
 }
-footer .links li{
+.links li{
     margin-bottom: 40px;
 }
-footer .links{
+.links{
     position: relative;
     height: 314px;
 }
-footer .links .social{
+.links .social{
     position: absolute;
     bottom: -17%; 
 }
-footer .links .social > a{
+.links .social > a{
     padding-right: 20px;
     font-size: 30px;
 }
@@ -555,7 +639,7 @@ color: #fff;
     width: 100%;
     height: 500px;
 }
-#co-p{
+#co-p,#ma-p,#en-p,footer .fo-p{
     position: relative;
 }
 #co-c{
@@ -565,9 +649,6 @@ color: #fff;
     top: 3px;
 }
 
-#ma-p{
-    position: relative;
-}
 #ma-c{
     position: absolute;
     font-size: 35px;
@@ -575,19 +656,13 @@ color: #fff;
     top: 3px;
 }
 
-#en-p{
-    position: relative;
-}
 #en-c{
     position: absolute;
     font-size: 35px;
     left: -42px;
     top: -7px;
 }
-footer .fo-p{
-    position: relative;
-}
-footer .fo-p #fo-c::before{
+.fo-p #fo-c::before{
     content: "";
     width: 53px;
     height: 207px;

@@ -4,26 +4,25 @@
         ?>
 
       <!-- Start caption -->
+      <div class="wrapper">
         <div class="caption">
             <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
                         <img class="mx-auto d-block logs" src="<?php echo $img; ?>bricks-logo.svg" alt="BRICKS INTEGRATED ">
-                    </div>
+                <div class="caption-txt">
+                    <h3 class="txt-m">Integrated constructions for commercial, residential and industrial buildings.</h3>
                 </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 text-center">
+                <div class="caption-down">
+                        <div class="text-center txt-d-m">
                         <a class="scroll-down" href="#"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
                         <h5 class="scroll-txt">scroll down</h5>
                     </div>
                 </div>
+                </div>
             </div>
-        </div>
+            </div>
 
       <!-- End caption -->
-
+<div class="clearfix"></div>
       <!-- Start Slider-->
         <div class="swiper-container">
             <div class="swiper-wrapper">

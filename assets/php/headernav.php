@@ -33,7 +33,6 @@
                 <li class="nav-item mar">
                     <a class="nav-link" href="contact.php"><?php echo $expr['contact']; ?></a>
                 </li>
-<<<<<<< HEAD
             </ul>
             <ul class="navbar-nav mr-auto" id="bs-n">
                 <li class="nav-item">
@@ -78,7 +77,6 @@
                     <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
                     <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
                 </li>
-=======
                 <li class="nav-item land">
                 <a class="nav-link  apper" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
                 <div class="searchbox">
@@ -100,7 +98,6 @@
                 </li>
             <?php endif ?>
         <?php endforeach ?>
->>>>>>> 01422046d175eddba0585202e5491ddc7d1d041e
             </ul>
         </div>
     </div>

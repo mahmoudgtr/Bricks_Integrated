@@ -5,7 +5,11 @@ PSD Desighner: joseph
 */
 
 body{
+<<<<<<< HEAD
     background-color: #1c1c1a;
+=======
+    background-color: #1D1D1B;
+>>>>>>> 01422046d175eddba0585202e5491ddc7d1d041e
     padding: 0;
     margin: 0;
     color: #fff;
@@ -95,11 +99,15 @@ body{
         bottom: 48px;
         right: -29px;   
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 01422046d175eddba0585202e5491ddc7d1d041e
 }
 /*Start mobile V*/
 @media (max-width: 991.98px){
     .nav-mv-p{
+<<<<<<< HEAD
         background-color: #fff;        
         position: absolute;
         left: 0;
@@ -107,11 +115,21 @@ body{
         width: 80%;
         z-index: 1515;
         border: 1px solid #00000099;
+=======
+        background-color: red;
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100vh;
+        width: 80%;
+        z-index: 1515;
+>>>>>>> 01422046d175eddba0585202e5491ddc7d1d041e
     }
     .nav-mv-c{
         width: 100%;
         background-color: #fff;
         position: relative;
+<<<<<<< HEAD
         margin-top: 73px!important;
         padding: 70px 70px 0 70px;
     }
@@ -125,6 +143,12 @@ body{
         top: -8%;
         left: 14%;
         z-index: 546545;
+=======
+        height: 55vh;
+        margin-top: 73px!important;
+        padding-left: 30px;
+        padding-top: 60px;
+>>>>>>> 01422046d175eddba0585202e5491ddc7d1d041e
     }
     .nav-mv-c::after{
         content: "";
@@ -133,7 +157,11 @@ body{
         height: 337px;
         background-size: 100% 100%;
         position: absolute;
+<<<<<<< HEAD
         bottom: -28px;
+=======
+        bottom: 29px;
+>>>>>>> 01422046d175eddba0585202e5491ddc7d1d041e
         right: 53px;
 
     }
@@ -163,6 +191,7 @@ body{
         content: "";
         background-color: #1D1D1B;
     }
+<<<<<<< HEAD
     .links-nav{
         background-color: #1D1D1B;
         padding: 50px 70px 10px 70px;
@@ -237,6 +266,8 @@ body{
     min-width: 4rem;
     border-radius: 0;
 }
+=======
+>>>>>>> 01422046d175eddba0585202e5491ddc7d1d041e
 }
 /*End mobile V*/
 @media (max-width: 1320px){
@@ -365,6 +396,7 @@ height: 400px;
 ul{
     list-style: none;
 }
+<<<<<<< HEAD
 .info ul li{
     margin-bottom: 50px;
 }
@@ -386,6 +418,29 @@ ul{
     bottom: -17%; 
 }
 .links .social > a{
+=======
+footer .info ul li{
+    margin-bottom: 50px;
+}
+footer .links li,footer p,footer ul li {
+    font-size: 14px;
+}
+footer .links li a{
+    color: #fff;
+}
+footer .links li{
+    margin-bottom: 40px;
+}
+footer .links{
+    position: relative;
+    height: 314px;
+}
+footer .links .social{
+    position: absolute;
+    bottom: -17%; 
+}
+footer .links .social > a{
+>>>>>>> 01422046d175eddba0585202e5491ddc7d1d041e
     padding-right: 20px;
     font-size: 30px;
 }
@@ -639,7 +694,11 @@ color: #fff;
     width: 100%;
     height: 500px;
 }
+<<<<<<< HEAD
 #co-p,#ma-p,#en-p,footer .fo-p{
+=======
+#co-p{
+>>>>>>> 01422046d175eddba0585202e5491ddc7d1d041e
     position: relative;
 }
 #co-c{
@@ -649,6 +708,12 @@ color: #fff;
     top: 3px;
 }
 
+<<<<<<< HEAD
+=======
+#ma-p{
+    position: relative;
+}
+>>>>>>> 01422046d175eddba0585202e5491ddc7d1d041e
 #ma-c{
     position: absolute;
     font-size: 35px;
@@ -656,13 +721,26 @@ color: #fff;
     top: 3px;
 }
 
+<<<<<<< HEAD
+=======
+#en-p{
+    position: relative;
+}
+>>>>>>> 01422046d175eddba0585202e5491ddc7d1d041e
 #en-c{
     position: absolute;
     font-size: 35px;
     left: -42px;
     top: -7px;
 }
+<<<<<<< HEAD
 .fo-p #fo-c::before{
+=======
+footer .fo-p{
+    position: relative;
+}
+footer .fo-p #fo-c::before{
+>>>>>>> 01422046d175eddba0585202e5491ddc7d1d041e
     content: "";
     width: 53px;
     height: 207px;

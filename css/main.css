@@ -6,7 +6,6 @@ PSD Desighner: joseph
 
 body{
     background-color: #1c1c1a;
-    background-color: #1D1D1B;
     padding: 0;
     margin: 0;
     color: #fff;
@@ -139,13 +138,6 @@ body{
         width: 80%;
         z-index: 1515;
         border: 1px solid #00000099;
-        background-color: red;
-        position: absolute;
-        left: 0;
-        top: 0;
-        height: 100vh;
-        width: 80%;
-        z-index: 1515;
     }
     .nav-mv-c{
         width: 100%;
@@ -164,10 +156,6 @@ body{
         top: -8%;
         left: 14%;
         z-index: 546545;
-        height: 55vh;
-        margin-top: 73px!important;
-        padding-left: 30px;
-        padding-top: 60px;
     }
     .nav-mv-c::after{
         content: "";
@@ -177,7 +165,6 @@ body{
         background-size: 100% 100%;
         position: absolute;
         bottom: -28px;
-        bottom: 29px;
         right: 53px;
 
     }
@@ -489,27 +476,6 @@ ul{
     bottom: -17%; 
 }
 .links .social > a{
-footer .info ul li{
-    margin-bottom: 50px;
-}
-footer .links li,footer p,footer ul li {
-    font-size: 14px;
-}
-footer .links li a{
-    color: #fff;
-}
-footer .links li{
-    margin-bottom: 40px;
-}
-footer .links{
-    position: relative;
-    height: 314px;
-}
-footer .links .social{
-    position: absolute;
-    bottom: -17%; 
-}
-footer .links .social > a{
     padding-right: 20px;
     font-size: 30px;
 }
@@ -766,8 +732,6 @@ color: #fff;
     height: 500px;
 }
 #co-p,#ma-p,#en-p,footer .fo-p{
-=======
-#co-p{
     position: relative;
 }
 #co-c{
@@ -777,10 +741,6 @@ color: #fff;
     top: 3px;
 }
 
-=======
-#ma-p{
-    position: relative;
-}
 #ma-c{
     position: absolute;
     font-size: 35px;
@@ -788,10 +748,6 @@ color: #fff;
     top: 3px;
 }
 
-
-#en-p{
-    position: relative;
-}
 #en-c{
     position: absolute;
     font-size: 35px;
@@ -799,11 +755,6 @@ color: #fff;
     top: -7px;
 }
 .fo-p #fo-c::before{
-=======
-footer .fo-p{
-    position: relative;
-}
-footer .fo-p #fo-c::before{
     content: "";
     width: 53px;
     height: 207px;

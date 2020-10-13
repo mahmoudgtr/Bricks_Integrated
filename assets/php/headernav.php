@@ -77,27 +77,6 @@
                     <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
                     <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
                 </li>
-                <li class="nav-item land">
-                <a class="nav-link  apper" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
-                <div class="searchbox">
-                    <input type="text">
-                    <input type="button" value="search" >
-                </div>        
-            </li>
-                <li class="nav-item dropdown lang">
-                    <?php foreach ($dictionary as $key => $lang_dict): ?>
-                    <?php if ($current_lang == $key): ?>
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <?php echo $lang_dict['name'] ?>
-        </a>
- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#"><?php echo $lang_dict['name'] ?></a>
-          <?php else: ?>
-            <a class="dropdown-item" href="lang.php?change=<?php echo $key?>"><?php echo $lang_dict['name'] ?></a>
-      </div>
-                </li>
-            <?php endif ?>
-        <?php endforeach ?>
             </ul>
         </div>
     </div>

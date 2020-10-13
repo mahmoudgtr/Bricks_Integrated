@@ -21,17 +21,17 @@
     </button>
         <div class="collapse navbar-collapse nav-mv-p" id="navbarSupportedContent">
             <ul class="navbar-nav m-auto nav-mv-c">
-                <li class="nav-item  active">
-                <a class="nav-link" href="index.php"><?php echo $expr['home']; ?><span class="sr-only">(current)</span></a>
+                <li class="nav-item zc-p ">
+                <a class="nav-link zc" href="index.php"><?php echo $expr['home']; ?><span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                <a class="nav-link mar" href="about.php"><?php echo $expr['about']; ?></a>
+                <li class="nav-item zc-p">
+                <a class="nav-link zc" href="about.php"><?php echo $expr['about']; ?></a>
                 </li>
-                <li class="nav-item mar">
-                    <a class="nav-link" href="services.php"><?php echo $expr['services']; ?></a>
+                <li class="nav-item zc-p">
+                    <a class="nav-link zc" href="services.php"><?php echo $expr['services']; ?></a>
                 </li>
-                <li class="nav-item mar">
-                    <a class="nav-link" href="contact.php"><?php echo $expr['contact']; ?></a>
+                <li class="nav-item zc-p">
+                    <a class="nav-link zc" href="contact.php"><?php echo $expr['contact']; ?></a>
                 </li>
             </ul>
             <ul class="navbar-nav mr-auto" id="bs-n">

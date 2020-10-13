@@ -103,3 +103,17 @@ $(document).ready(function() {
 
     });
   
+  /* Change active class while clicking */
+
+
+$(document).ready(function () {
+  var url = window.location;
+    // Will only work if string in href matches with location
+        $('.navbar-nav li .zc[href="' + url + '"]').parent().addClass('active');
+
+    // Will also work for relative and absolute hrefs
+        $('.navbar-nav li .zc').filter(function () {
+            return this.href == url;
+        }).parent().addClass('active');
+        
+    });

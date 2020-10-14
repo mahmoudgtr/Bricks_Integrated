@@ -38,7 +38,7 @@ $(document).ready(function() {
         // when window width is >= 320px
         320: {
           
-          spaceBetween: 50
+          spaceBetween: 30
         },
         // when window width is >= 480px
         480: {
@@ -117,3 +117,9 @@ $(document).ready(function () {
         }).parent().addClass('active');
         
     });
+
+/*Change border Width When hover*/
+
+$(".project .card").hover(function(){
+$(this).siblings().toggleClass("changed");
+})

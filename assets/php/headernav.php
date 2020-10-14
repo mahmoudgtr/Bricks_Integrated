@@ -15,13 +15,13 @@
 <!-- Start Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark pt-4">
     <div class="container">
-    <a class="navbar-brand" href="index.php"><img src="<?php echo $img; ?>logotext@2x.png" alt=""></a>
+    <a class="navbar-brand" href="index.php"><img src="<?php echo $img; ?>Group--.svg" alt=""></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
     </button>
         <div class="collapse navbar-collapse nav-mv-p" id="navbarSupportedContent">
-            <ul class="navbar-nav m-auto nav-mv-c">
-                <li class="nav-item zc-p ">
+            <ul class="navbar-nav ml-auto nav-mv-c">
+                <li class="nav-item zc-p" id="f-active">
                 <a class="nav-link zc" href="index.php"><?php echo $expr['home']; ?><span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item zc-p">
@@ -34,7 +34,7 @@
                     <a class="nav-link zc" href="contact.php"><?php echo $expr['contact']; ?></a>
                 </li>
             </ul>
-            <ul class="navbar-nav mr-auto" id="bs-n">
+            <ul class="navbar-nav ml-auto" id="bs-n">
                 <li class="nav-item">
                     <a class="nav-link  apper" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
                     <div class="searchbox">

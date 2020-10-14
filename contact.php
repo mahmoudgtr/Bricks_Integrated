@@ -60,7 +60,7 @@
                     <ul>
                         <li id="co-p">
                         <i class="fa fa-clock-o" id="co-c" aria-hidden="true"></i>
-                            Sunday- Thursday<br/>
+                            <b>Sunday- Thursday</b><br/>
                             09:00AM  - 05:00PM
                         </li>
                         <li id="ma-p">
@@ -70,30 +70,32 @@
                         </li>
                         <li id="en-p">
                         <i class="fa fa-envelope-o" id="en-c" aria-hidden="true"></i>
-                            info@bricksintegrated.com 
+                            <b>info@bricksintegrated.com</b>
                         </li>
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <ul class="links">
-                        <li>
-                            <a href="layout/about.php">About</a> 
-                        </li>
-                        <li>
-                            <a href="#">Portfolio</a>
-                        </li>
-                        <li>
-                            <a href="#">Services</a>
-                        </li>
-                        <li>
-                            <a href="#">Conact us</a>    
-                        </li>
-                        <li class="social">
-                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
+                        <ul class="links" id="links-f">
+                            <li>
+                               <a href="layout/about.php">About</a> 
+                            </li>
+                            <li>
+                                <a href="#">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="#">Services</a>
+                            </li>
+                            <li>
+                                <a href="#">Conact us</a>    
+                            </li>
+                        </ul>
+                        <ul class="links" id="links-s">
+                            <li class="social">
+                                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
                 </div>
             </div>
         </div>

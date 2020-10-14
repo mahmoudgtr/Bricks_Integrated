@@ -2,32 +2,36 @@
   include 'init.php';
   include $assets . "headernav.php";
  ?>
-<section class="about">
-<div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="aboutImg mx-auto" id="ser-img">
-                    <img class="w-100" src="<?php echo $img; ?>MaskGroup6.png"/>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="aboutTxt ml-auto pt-5">
+<!--Start About-->
+<div class="about">
+     <div class="container-fluid">
+        <div class="row" id="row-flow">
+            <div class="col-lg-6 abouttxt-p aboutTxt-o">
+                <div class="aboutTxt aboutTxt-s">
                     <h5>Innovative and Creative Solutions</h5>
-                    <div>
-                        <div class="border-bottom w-50 my-5"></div>
+                    <div class="caption-about">
+                        <div class="border-bottom w-75 my-5"></div>
                         <h4 class="text show-more">Committed to provide an additional value for its customers through innovation and uniqueness, and internationally leading.<div class="collapse" id="mycon">Bricks Integrated is characterized by its delivery and 
-                        perforfing the projects with authorized and approved systems and focusing on meeting the international standards and requirements which pave the way for more growth.</div></h4>
+                        performing the projects with authorized and approved systems and focusing on meeting the international standards and requirements which pave the way for more growth.</div></h4>
                         <a id="readM" href='#mycon' data-toggle="collapse">Read more<i class="fa fa-chevron-circle-right pl-3" aria-hidden="true"></i></a>
                     </div>
                 </div>
             </div>
+            <div class="col-lg-6 aboutImg-p aboutImg-o">
+                <div class="aboutImg img-h" >
+                    <img class="w-100 h-100" src="<?php echo $img; ?>MaskGroup6.png"/>
+                </div>
+            </div>
         </div>
     </div>
-</section>
+ <!--End About-->
 <section class="serv">
     <div class="container">
-        <div  class="ss">
-             <h6 class="text-center">services</h6>
+        <div  class="ss-p">
+            <div class="ss-c">
+             <h6 class=>services</h6>
+             <div class="bo-b"><div class="bo-c"></div></div>
+             </div>
         </div>
         <div class="row">
             <div class="col md-4">

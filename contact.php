@@ -11,14 +11,15 @@
                     <div>
                         <div class="border-bottom w-25 my-5"></div>
                         <h4 class="text">Open to conversations that lead to innovative and collaborative projects to fulfill.</h4>
+                        <div class="contact-t">
                         <a href='tel:+965 2220 6183'><i class="fa fa-phone" aria-hidden="true"></i>+965 2220 6183/6</a>
+                        </div>
                     </div>
                 </div>
         </div>
     </div>
     <!-- End Contact--> 
     <!-- Start map-->
-    <!--
     <div class="map">
         <div class="container-fluid">
             <div class="row">
@@ -31,7 +32,7 @@
                         <form action="" class="form-m">
                             <div class="form-group">
                                 <label for="InputNmae">Name</label>
-                                <input type="text" class="form-control" id="InputName" autofocus>
+                                <input type="text" class="form-control" id="InputName" autocomplete="false">
                             </div>
                             <div class="form-group">
                                 <label for="InputEmail">Email</label>
@@ -47,7 +48,7 @@
                 </div>
             </div>
     </div>  
-                        -->
+                       
     <!-- End map-->  
     <!-- Start Footer-->
     <footer>
@@ -75,7 +76,7 @@
                     </ul>
                 </div>
                 <div class="col-md-4">
-                        <ul class="links" id="links-f">
+                        <ul class="links " id="links-f">
                             <li>
                                <a href="layout/about.php">About</a> 
                             </li>

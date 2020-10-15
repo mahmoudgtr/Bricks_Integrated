@@ -12,9 +12,9 @@
                     <div class="caption-about">
                         <div class="border-bottom w-75 my-5"></div>
                         <h4 class="text show-more">Bricks Integrated is characterized by its delivery and 
-                        performing the projects with authorized and approved systems and focusing on meeting the international standards and requirements which pave the way for more growth.<div class="collapse" id="mycon">Bricks Integrated is characterized by its delivery and 
+                        performing the projects with authorized and approved systems and focusing on meeting the international standards and requirements which pave the way for more growth.<div class="collapse" id="collapseExample" >Bricks Integrated is characterized by its delivery and 
                         performing the projects with authorized and approved systems and focusing on meeting the international standards and requirements which pave the way for more growth.</div></h4>
-                        <a id="readM" href='#mycon' data-toggle="collapse">Read more<i class="fa fa-chevron-circle-right pl-3" aria-hidden="true"></i></a>
+                        <a data-toggle="collapse" id="readM" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Read more</a><img id="ar-u" src="<?php echo $img; ?>arrow-iocn-14px.svg"/>
                     </div>
                 </div>
             </div>
@@ -32,7 +32,7 @@
               <div class="card-header b-card-show" id="headingOne">
                 <h2 class="mb-0">
                   <button class="btn btn-link btn-block text-left text-uppercase" id="item1" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Objective<i class="fa fa-chevron-circle-down chev-po" id="j" aria-hidden="true"></i>
+                  Objective<img class="chev-po" id="j" src="<?php echo $img; ?>arrow-iocn-20px.svg"/>
                   </button>
                   
                 </h2>
@@ -50,7 +50,7 @@
               <div class="card-header b-card-show" id="headingTwo">
                 <h2 class="mb-0">
                   <button class="btn btn-link btn-block text-left collapsed text-uppercase" id="item2" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  vision<i class="fa fa-chevron-circle-down chev-po" id="v" aria-hidden="true"></i>
+                  vision<img class="chev-po" id="v" src="<?php echo $img; ?>ionic-ios-arrow-dropdown.svg"/>
                   </button>
                   
                 </h2>
@@ -65,7 +65,7 @@
               <div class="card-header b-card-show" id="headingThree">
                 <h2 class="mb-0">
                   <button class="btn btn-link btn-block text-left collapsed text-uppercase" id="item3" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  mission<i class="fa fa-chevron-circle-down chev-po" id="m" aria-hidden="true"></i>
+                  mission<img class="chev-po" id="m" src="<?php echo $img; ?>ionic-ios-arrow-dropdown.svg"/>
                   </button>
                 </h2>
               </div>
@@ -80,6 +80,12 @@
     </div>
       <div class="project">
         <div class="container">
+         <div  class="ss-p">
+              <div class="ss-c">
+               <h6 class=>Projects</h6>
+               <div class="bo-b"><div class="bo-c"></div></div>
+              </div>
+          </div>
           <div class="row">
             <div class="col-md-4">
               <div class="card" >

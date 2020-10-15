@@ -11,10 +11,8 @@
 
     <title>BRICKS INTEGRATED</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="<?php echo $css; ?>bootstrap.min.css"/>
-    <link rel="stylesheet" href="<?php echo $css; ?>font-awesome.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    <link rel="stylesheet" href="<?php echo $css; ?>main.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
 </head>
 <body>
 <!-- Start Navbar -->
@@ -57,7 +55,7 @@
             </ul>
             <ul class="navbar-nav ml-auto" id="bs-n">
                 <li class="nav-item">
-                    <a class="nav-link  apper" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                    <a class="nav-link  apper" href="#"><img id="search-i"/></a>
                     <div class="searchbox">
                         <input type="text">
                         <input type="button" value="search" >
@@ -78,28 +76,25 @@
                 <?php endif ?>
             <?php endforeach ?>
                  <li class="nav-item" id="bc-n">
-                    <a class="nav-link" href="#" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-times" aria-hidden="true"></i></a>      
+                    <a class="nav-link" href="#" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><img src="<?php echo $img; ?>Icon ionic-ios-close.svg"/></a>      
                 </li>
             </ul>
             <ul class="navbar-nav links-nav info-nav">
-                <li id="co-p-v">
-                <i class="fa fa-clock-o" id="co-c-v" aria-hidden="true"></i>
+                <li>
                     Sunday- Thursday<br/>
                     09:00AM  - 05:00PM
                 </li>
-                <li id="ma-p-v">
-                <i class="fa fa-map-marker" id="ma-c-v" aria-hidden="true"></i>
+                <li>
                     AlQibla-Ahmed Al Jaber Street<br/>
                     Al Zumorrodah Tower-22 floor
                 </li>
-                <li id="en-p-v">
-                <i class="fa fa-envelope-o" id="en-c-v" aria-hidden="true"></i>
+                <li>
                     info@bricksintegrated.com 
                 </li>
                 <li class="social nav-item">
-                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                    <a href="#"><img id="f-insta" src="<?php echo $img; ?>Icon-instagram.svg"/></a>
+                    <a href="#"><img src="<?php echo $img; ?>Icon-feather-mail.svg"/></a>
+                    <a href="#"><img src="<?php echo $img; ?>Icon feather-phone-call.svg"/></a>
                 </li>
             </ul>
         </div>

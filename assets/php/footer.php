@@ -2,7 +2,7 @@
             <div class="container">
                 <div class="row pt-3 pb-3 border-top text-center">  
                     <div class="col-xl-6">Copyright © 2020 Bricks Intergrated. All rights reserved.</div>
-                    <div class="col-xl-6 ">Terms & Conditions  | Privacy Policy | Cookies Policy |  Copyright Notifictaions</div>
+                    <div class="col-xl-6 ">Designed and Developed by THREE Production House</div>
                 </div>
             </div>
         </div>

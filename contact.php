@@ -11,9 +11,6 @@
                     <div>
                         <div class="border-bottom w-25 my-5"></div>
                         <h4 class="text">Open to conversations that lead to innovative and collaborative projects to fulfill.</h4>
-                        <div class="contact-t">
-                        <a href='tel:+965 2220 6183'><i class="fa fa-phone" aria-hidden="true"></i>+965 2220 6183/6</a>
-                        </div>
                     </div>
                 </div>
         </div>
@@ -59,18 +56,15 @@
                 </div>
                 <div class="col-md-4 info">
                     <ul>
-                        <li id="co-p">
-                        <i class="fa fa-clock-o" id="co-c" aria-hidden="true"></i>
+                        <li>
                             <b>Sunday- Thursday</b><br/>
                             09:00AM  - 05:00PM
                         </li>
-                        <li id="ma-p">
-                        <i class="fa fa-map-marker" id="ma-c" aria-hidden="true"></i>
+                        <li>
                             AlQibla-Ahmed Al Jaber Street<br/>
                             Al Zumorrodah Tower-22 floor
                         </li>
-                        <li id="en-p">
-                        <i class="fa fa-envelope-o" id="en-c" aria-hidden="true"></i>
+                        <li>
                             <b>info@bricksintegrated.com</b>
                         </li>
                     </ul>
@@ -81,10 +75,10 @@
                                <a href="layout/about.php">About</a> 
                             </li>
                             <li>
-                                <a href="#">Portfolio</a>
+                                <a href="B.pdf" target="_blank">Portfolio</a>
                             </li>
                             <li>
-                                <a href="#">Services</a>
+                                <a href="services.php">Services</a>
                             </li>
                             <li>
                                 <a href="#">Conact us</a>    
@@ -92,9 +86,9 @@
                         </ul>
                         <ul class="links" id="links-s">
                             <li class="social">
-                                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                                <a href="#"><img  id="f-insta" src="<?php echo $img; ?>Icon-instagram.svg"/></a>
+                                <a href="#"><img src="<?php echo $img; ?>Icon-feather-mail.svg"/></a>
+                                <a href="#"><img src="<?php echo $img; ?>Icon feather-phone-call.svg"/></a>
                             </li>
                         </ul>
                 </div>

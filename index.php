@@ -3,7 +3,7 @@
         ?>
 
 <!DOCTYPE html>
-<html lang="en" dir="<?php echo $expr['dirction']; ?>">
+<html lang="<?php echo $expr['name']; ?>" dir="<?php echo $expr['dirction']; ?>">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,10 +14,9 @@
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16*16">
     <title>BRICKS INTEGRATED</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="<?php echo $css; ?>bootstrap.min.css"/>
-    <link rel="stylesheet" href="<?php echo $css; ?>font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $css; ?>bootstrap.min.css"/>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    <link rel="stylesheet" href="<?php echo $css; ?>main.css"/>
+    <link rel="stylesheet" type="text/css" href="<?php echo $css; ?>main.css"/>
 </head>
 <body>
 <!-- Start Navbar -->
@@ -27,22 +26,6 @@
         <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand" href="index.php"><img src="<?php echo $img; ?>Group--.svg" alt=""></a>
-        <ul class="nav-lang">
-            <li class="nav-item dropdown">
-                <?php foreach ($dictionary as $key => $lang_dict): ?>
-                <?php if ($current_lang == $key): ?>
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <?php echo $lang_dict['name'] ?>
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#"><?php echo $lang_dict['name'] ?></a>
-                      <?php else: ?>
-                        <a class="dropdown-item" href="lang.php?change=<?php echo $key?>"><?php echo $lang_dict['name'] ?></a>
-                    </div>
-            </li>
-            <?php endif ?>
-        <?php endforeach ?>
-        </ul>
         <div class="collapse navbar-collapse nav-mv-p" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto nav-mv-c">
                 <li class="nav-item zc-p active" id="f-active">
@@ -60,13 +43,39 @@
             </ul>
             <ul class="navbar-nav ml-auto" id="bs-n">
                 <li class="nav-item">
-                    <a class="nav-link  apper" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                    <a class="nav-link  apper" href="#"><img id="search-i"/></a>
                     <div class="searchbox">
                         <input type="text">
                         <input type="button" value="search" >
                     </div>        
                 </li>
-                <li class="nav-item dropdown" id="bl-n">
+
+                 <li class="nav-item" id="bc-n">
+                    <a class="nav-link" href="#" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><img src="<?php echo $img; ?>Icon ionic-ios-close.svg"/></a>      
+                </li>
+            </ul>
+
+            <ul class="navbar-nav links-nav info-nav">
+                <li>
+                    Sunday- Thursday<br/>
+                    09:00AM  - 05:00PM
+                </li>
+                <li>
+                    AlQibla-Ahmed Al Jaber Street<br/>
+                    Al Zumorrodah Tower-22 floor
+                </li>
+                <li>
+                    info@bricksintegrated.com 
+                </li>
+                <li class="social">
+                    <a href="#"><img id="f-insta" src="<?php echo $img; ?>Icon-instagram.svg"/></a>
+                    <a href="#"><img src="<?php echo $img; ?>Icon-feather-mail.svg"/></a>
+                    <a href="#"><img src="<?php echo $img; ?>Icon feather-phone-call.svg"/></a>
+                </li>
+            </ul>
+        </div>
+                    <ul class="navbar-na">
+                    <li class="nav-item dropdown" id="bl-n">
                     <?php foreach ($dictionary as $key => $lang_dict): ?>
                     <?php if ($current_lang == $key): ?>
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -80,32 +89,7 @@
                 </li>
                 <?php endif ?>
                  <?php endforeach ?>
-                 <li class="nav-item" id="bc-n">
-                    <a class="nav-link" href="#" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-times" aria-hidden="true"></i></a>      
-                </li>
             </ul>
-            <ul class="navbar-nav links-nav info-nav">
-                <li id="co-p-v">
-                <i class="fa fa-clock-o" id="co-c-v" aria-hidden="true"></i>
-                    Sunday- Thursday<br/>
-                    09:00AM  - 05:00PM
-                </li>
-                <li id="ma-p-v">
-                <i class="fa fa-map-marker" id="ma-c-v" aria-hidden="true"></i>
-                    AlQibla-Ahmed Al Jaber Street<br/>
-                    Al Zumorrodah Tower-22 floor
-                </li>
-                <li id="en-p-v">
-                <i class="fa fa-envelope-o" id="en-c-v" aria-hidden="true"></i>
-                    info@bricksintegrated.com 
-                </li>
-                <li class="social nav-item">
-                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                </li>
-            </ul>
-        </div>
     </div>
 </nav>
 <!-- End Navbar -->
@@ -117,18 +101,11 @@
                 <div class="caption-txt">
                     <h3 class="txt-m">Integrated constructions for commercial, residential and industrial buildings.</h3>
                 </div>
-                <div class="caption-down">
-                        <div class="text-center txt-d-m">
-                        <a class="scroll-down" href="#"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
-                        <h5 class="scroll-txt">scroll down</h5>
-                    </div>
-                </div>
                 </div>
             </div>
             </div>
 
       <!-- End caption -->
-<div class="clearfix"></div>
       <!-- Start Slider-->
         <div class="swiper-container">
             <div class="swiper-wrapper">
@@ -187,9 +164,9 @@
                         </ul>
                         <ul class="links" id="links-s">
                             <li class="social">
-                                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                                <a href="#"><img id="f-insta" src="<?php echo $img; ?>Icon-instagram.svg"/></a>
+                                <a href="#"><img src="<?php echo $img; ?>Icon-feather-mail.svg"/></a>
+                                <a href="#"><img src="<?php echo $img; ?>Icon feather-phone-call.svg"/></a>
                             </li>
                         </ul>
                     </div>

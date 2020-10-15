@@ -16,16 +16,6 @@ $(function() {
 
 });
 
-/*scroll down*/
-
-$(document).ready(function() {
-    $(".scroll-down").click(function() {
-         $('html, body').animate({
-             scrollTop: $(".swiper-container").offset().top
-         }, 1500);
-     });
-    });
-
     /*slider*/
 
     var swiper = new Swiper('.swiper-container', {
@@ -65,21 +55,24 @@ $(document).ready(function() {
 
     /* Hide Read more button*/
 
-    $(document).ready(function(){
+  
       $("#readM").click(function(){
-        $(this).hide();
+         var text = $('#readM').text();
+      $('#readM').text(
+        text == "Read less" ? "Read more" : "Read less");
+      $('#ar-u').toggleClass("rotate-u");
       });
-    });
+
 
     /* collapse*/
 
     $(document).ready(function(){
       $('#headingOne').toggleClass('changed');
+    
       /*obj*/
       $('#item1').on("click",function(){
-        $('#j').toggleClass("rotate");
+        $('#j').toggleClass("rotate-a");
         if($("#item1").attr("aria-expanded","true")){
-          $('#j').removeClass("fa-chevron-circle-down").addClass("fa-chevron-circle-up");
           $('#headingOne').toggleClass('changed');
         }
       })

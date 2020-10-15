@@ -22,10 +22,10 @@ $dictionary = [
 
 		// Expressions
 		//navbar
-		"home" => "الرئيسية",
-		"about" => "عننا",
-		"services" => "الخدمات",
-		"contact" => "التواصل",
+		"home" => "Home",
+		"about" => "About",
+		"services" => "Services",
+		"contact" => "Contact",
 	],
 ];
 

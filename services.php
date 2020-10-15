@@ -7,13 +7,11 @@
      <div class="container-fluid">
         <div class="row" id="row-flow">
             <div class="col-lg-6 abouttxt-p aboutTxt-o">
-                <div class="aboutTxt aboutTxt-s">
+                <div class="aboutTxt-s">
                     <h5>Innovative and Creative Solutions</h5>
                     <div class="caption-about">
-                        <div class="border-bottom w-75 my-5"></div>
-                        <h4 class="text show-more">Committed to provide an additional value for its customers through innovation and uniqueness, and internationally leading.<div class="collapse" id="mycon">Bricks Integrated is characterized by its delivery and 
-                        performing the projects with authorized and approved systems and focusing on meeting the international standards and requirements which pave the way for more growth.</div></h4>
-                        <a id="readM" href='#mycon' data-toggle="collapse">Read more<i class="fa fa-chevron-circle-right pl-3" aria-hidden="true"></i></a>
+                        <div class="border-bottom w-50 my-5"></div>
+                        <h4 class="text show-more">Committed to provide an additional value for its customers through innovation and uniqueness, and internationally leading.</h4>
                     </div>
                 </div>
             </div>

@@ -74,21 +74,14 @@
                 </li>
             </ul>
         </div>
-                    <ul class="navbar-na">
-                    <li class="nav-item dropdown" id="bl-n">
-                    <?php foreach ($dictionary as $key => $lang_dict): ?>
-                    <?php if ($current_lang == $key): ?>
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          <?php echo $lang_dict['name'] ?>
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item" href="#"><?php echo $lang_dict['name'] ?></a>
-                          <?php else: ?>
-                            <a class="dropdown-item" href="lang.php?change=<?php echo $key?>"><?php echo $lang_dict['name'] ?></a>
-                        </div>
-                </li>
+            <ul class="navbar-na">
+                <?php foreach ($dictionary as $key => $lang_dict): ?>
+                <?php if ($current_lang != $key): ?>
+                    <li class="nav-item" id="bl-n">
+                        <a  href="lang.php?change=<?php echo $key?>"><?php echo $lang_dict['name'] ?></a>
+                    </li>
                 <?php endif ?>
-                 <?php endforeach ?>
+                <?php endforeach ?>
             </ul>
     </div>
 </nav>

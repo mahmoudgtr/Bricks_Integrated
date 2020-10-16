@@ -22,22 +22,6 @@
         <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand" href="index.php"><img src="<?php echo $img; ?>Group--.svg" alt=""></a>
-        <ul class="nav-lang">
-            <li class="nav-item dropdown">
-                <?php foreach ($dictionary as $key => $lang_dict): ?>
-                <?php if ($current_lang == $key): ?>
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <?php echo $lang_dict['name'] ?>
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#"><?php echo $lang_dict['name'] ?></a>
-                      <?php else: ?>
-                        <a class="dropdown-item" href="lang.php?change=<?php echo $key?>"><?php echo $lang_dict['name'] ?></a>
-                    </div>
-            </li>
-            <?php endif ?>
-        <?php endforeach ?>
-        </ul>
         <div class="collapse navbar-collapse nav-mv-p" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto nav-mv-c">
                 <li class="nav-item zc-p" id="f-active">
@@ -61,20 +45,6 @@
                         <input type="button" value="search" >
                     </div>        
                 </li>
-                <li class="nav-item dropdown" id="bl-n">
-                    <?php foreach ($dictionary as $key => $lang_dict): ?>
-                    <?php if ($current_lang == $key): ?>
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          <?php echo $lang_dict['name'] ?>
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item" href="#"><?php echo $lang_dict['name'] ?></a>
-                          <?php else: ?>
-                            <a class="dropdown-item" href="lang.php?change=<?php echo $key?>"><?php echo $lang_dict['name'] ?></a>
-                        </div>
-                </li>
-                <?php endif ?>
-            <?php endforeach ?>
                  <li class="nav-item" id="bc-n">
                     <a class="nav-link" href="#" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><img src="<?php echo $img; ?>Icon ionic-ios-close.svg"/></a>      
                 </li>
@@ -98,6 +68,15 @@
                 </li>
             </ul>
         </div>
+            <ul class="navbar-na">
+                <?php foreach ($dictionary as $key => $lang_dict): ?>
+                <?php if ($current_lang != $key): ?>
+                    <li class="nav-item" id="bl-n">
+                        <a  href="lang.php?change=<?php echo $key?>"><?php echo $lang_dict['name'] ?></a>
+                    </li>
+                <?php endif ?>
+                <?php endforeach ?>
+            </ul>
     </div>
 </nav>
 <!-- End Navbar -->

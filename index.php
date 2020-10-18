@@ -13,12 +13,15 @@
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32*32">
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16*16">
     <title>BRICKS INTEGRATED</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="<?php echo $expr['font']; ?>" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="<?php echo $css; ?>bootstrap.min.css"/>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $css; ?>simplebar.css"/>
     <link rel="stylesheet" type="text/css" href="<?php echo $css; ?>main.css"/>
+    <?php if($expr['name'] == "ar"){ 
+        echo '<link rel="stylesheet" type="text/css" href="css/rtl/main-rtl.css">' ;}  ?>
 </head>
-<body>
+<body >
 <!-- Start Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark pt-4">
     <div class="container">
@@ -27,7 +30,7 @@
         </button>
         <a class="navbar-brand" href="index.php"><img src="<?php echo $img; ?>Group--.svg" alt=""></a>
         <div class="collapse navbar-collapse nav-mv-p" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto nav-mv-c">
+            <ul class="navbar-nav nav-mv-c">
                 <li class="nav-item zc-p active" id="f-active">
                 <a class="nav-link zc" href="index.php"><?php echo $expr['home']; ?><span class="sr-only">(current)</span></a>
                 </li>
@@ -38,15 +41,18 @@
                     <a class="nav-link zc" href="services.php"><?php echo $expr['services']; ?></a>
                 </li>
                 <li class="nav-item zc-p">
+                    <a class="nav-link zc" href="projects.php"><?php echo $expr['projects']; ?></a>
+                </li>
+                <li class="nav-item zc-p">
                     <a class="nav-link zc" href="contact.php"><?php echo $expr['contact']; ?></a>
                 </li>
             </ul>
-            <ul class="navbar-nav ml-auto" id="bs-n">
+            <ul class="navbar-nav " id="bs-n">
                 <li class="nav-item">
                     <a class="nav-link  apper" href="#"><img id="search-i"/></a>
                     <div class="searchbox">
                         <input type="text">
-                        <input type="button" value="search" >
+                        <input type="button" value="<?php echo $expr['search']; ?>" >
                     </div>        
                 </li>
 
@@ -57,12 +63,11 @@
 
             <ul class="navbar-nav links-nav info-nav">
                 <li>
-                    Sunday- Thursday<br/>
-                    09:00AM  - 05:00PM
+                    <?php echo $expr['work-days']; ?><br/>
+                     <?php echo $expr['work-h']; ?>
                 </li>
                 <li>
-                    AlQibla-Ahmed Al Jaber Street<br/>
-                    Al Zumorrodah Tower-22 floor
+                    <?php echo $expr['address']; ?>
                 </li>
                 <li>
                     info@bricksintegrated.com 
@@ -74,15 +79,15 @@
                 </li>
             </ul>
         </div>
-            <ul class="navbar-na">
+            <div class="nav-lang">
                 <?php foreach ($dictionary as $key => $lang_dict): ?>
                 <?php if ($current_lang != $key): ?>
-                    <li class="nav-item" id="bl-n">
-                        <a  href="lang.php?change=<?php echo $key?>"><?php echo $lang_dict['name'] ?></a>
-                    </li>
+                    <div>
+                        <a  href="lang.php?change=<?php echo $key?>"><?php echo $lang_dict['value'] ?></a>
+                    </div>
                 <?php endif ?>
                 <?php endforeach ?>
-            </ul>
+            </div>
     </div>
 </nav>
 <!-- End Navbar -->

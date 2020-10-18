@@ -4,3 +4,84 @@ Theme coder: Mahmoud saad
 PSD Desighner: joseph
 rtl vr.
 */
+
+body{
+	font-family: 'Tajawal', sans-serif;
+}
+/*Start Ar navbar*/
+.active::before, .zc::before {
+    left: auto;
+    right: 0;
+    
+}
+.navbar-nav .searchbox {
+	right: -311px;
+
+}
+.navbar-dark .navbar-toggler-icon {
+    transform: rotate(180deg);
+}
+.nav-lang{
+	font-size: 20px;
+}
+.social>a {
+    padding-right: 0;
+    padding-left: 20px;
+}
+@media (min-width: 992px){
+.navbar-nav .zc-p {
+	padding-right: 0;
+    padding-left: 4rem;
+	}
+	.nav-lang{
+    border-left: 0;
+    border-right: 2px solid #fff;
+    }
+    .nav-mv-c, #bs-n{
+    	margin: 0;
+    	margin-right: auto;
+    }
+}
+@media (max-width: 991.98px){
+.nav-lang{
+	padding-bottom: 0px;
+}
+.social>a{
+	padding-left: 10px;
+}
+.nav-mv-p, .nav-mv-c{
+	left: auto;
+}
+.nav-mv-p {
+	right: 0;
+	text-align: right;
+}
+.nav-mv-c::before{
+	right: 14%;
+}
+#bc-n {
+	right: auto;
+    left: 45px;
+}
+.nav-mv-c::after {
+	right: auto;
+    left: 53px;
+}
+.navbar-nav .searchbox {
+    right: auto;
+    left: -57px;
+
+}
+}
+@media (max-width: 400px) {
+.navbar-nav .searchbox {
+left: 15px;
+width: 224px;
+}
+    .searchbox input[type="text"] {
+        width: 140px;
+    }
+}
+}
+
+/*End Ar navbar*/

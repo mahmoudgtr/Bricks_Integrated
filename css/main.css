@@ -23,28 +23,6 @@ body {
     width: 130px;
 }
 
-.navbar-nav .lang {
-    position: absolute;
-    top: 30px;
-    right: 12%;
-
-}
-
-.navbar-nav .land {
-    position: absolute;
-    top: 30px;
-    right: 15%;
-}
-
-
-.navbar-nav .land::after {
-    content: "|";
-    position: absolute;
-    top: 1px;
-    right: -23%;
-    font-size: 25px;
-}
-
 .navbar-nav .searchbox {
     display: none;
     position: absolute;
@@ -57,7 +35,6 @@ body {
 .searchbox input[type="text"] {
     width: 200px;
     padding: 5px 10px;
-    margin-left: 23px;
     border: 1px solid #b2b2b2;
     outline: none;
 }
@@ -109,9 +86,14 @@ body {
 #links-s {
     height: 60px !important;
 }
-    #search-i{
+#search-i{
         content:url("../img/Icon-feather-search.svg");
-    }
+}
+.nav-lang a{
+    color: #fff;  
+    text-decoration: none;
+    font-size: 20px;
+}
 
 @media (min-width: 1200px) {
     .navbar .container {
@@ -267,6 +249,7 @@ body {
     }
     #bs-n li:first-child {
         padding-left: 70px;
+        padding-right: 31px;
     }
 
     .dropdown-menu {
@@ -288,28 +271,9 @@ body {
     .zc:hover::before {
         background-color: #1D1D1B;
     }
-
-    .nav-lang {
-        padding-left: 0;
-    }
-
     .navbar-brand {
         margin-right: 0;
     }
-
-    .nav-lang .dropdown-toggle {
-        color: #fff;
-    }
-
-    .dropdown-menu>a {
-        color: #1D1D1B;
-    }
-
-    .dropdown-menu>a:hover {
-        background-color: #1D1D1B;
-        color: #fff;
-    }
-
     #bc-n {
         position: absolute;
         top: 40px;
@@ -320,11 +284,14 @@ body {
     #bc-n:hover {
         transform: rotate(20deg);
     }
+    .nav-lang{
+    border: 2px solid #fff;
+    padding: 0px 10px 3px 10px;
+}
 }
 
 @media (min-width: 992px) {
 
-    .nav-lang,
     #bc-n {
         display: none;
     }
@@ -332,15 +299,18 @@ body {
     .links-nav {
         display: none;
     }
-
-    #bl-n {
-        border-left: 2px solid;
-
-    }
-
     .dropdown-menu {
         min-width: 4rem;
         border-radius: 0;
+    }
+    .nav-lang{
+    border-left: 2px solid #fff;
+    padding:0 8px;
+    }
+
+    .nav-mv-c,
+    #bs-n {
+        margin-left: auto;
     }
 }
 
@@ -356,7 +326,7 @@ body {
 
 @media (max-width: 400px) {
     .navbar-nav .searchbox {
-        right: -95px;
+        right: -107px;
     }
 
     .searchbox input[type="text"] {
@@ -580,6 +550,17 @@ footer ul li {
     footer ul {
         padding-left: 0;
     }
+}
+@media (max-width: 991.98px){
+     .social>a {
+    padding-right: 10px;
+}
+     .social a img{
+        height: 20px;
+}
+#f-insta{
+    height: 22px!important;
+}
 }
 
 /*End footer*/
@@ -1109,3 +1090,30 @@ footer .fo-p {
 
 /*End Contact mobile v*/
 /*End contact*/
+
+/*Start projcts page*/
+.projects-p{
+    margin-bottom: 50px;
+}
+.projects-p .caption-about{
+    padding-left: 0rem;
+}
+.project .hidden-p{
+    height: 1000px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.project .hidden-p::-webkit-scrollbar {
+width: 0px; 
+}
+/*End projcts page*/
+/*Start projct page*/
+.project-img .img-pp{
+    width: 300px;
+    height: 300px;
+}
+.project-img .img-pp img{
+    width: 100%;
+    height: 100%;
+}
+/*End projct page*/

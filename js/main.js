@@ -120,3 +120,12 @@ $(this).siblings().toggleClass("changed");
 $(".map .form-m .btn-cstm").hover(function(){
 $(this).toggleClass("changed");
 })
+
+/* Project slider */
+
+    lightbox.option({
+      'disableScrolling': true,
+      'alwaysShowNavOnTouchDevices': true,
+      'positionFromTop': 180,
+      'showImageNumberLabel': false,
+    })

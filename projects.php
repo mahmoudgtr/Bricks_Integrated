@@ -37,6 +37,7 @@
       <div class="hidden-p" data-simplebar>
       <div class="row">
         <div class="col-md-4">
+          <a href="project-1.php">
           <div class="card" >
             <img src="<?php echo $img; ?>MaskGroup4.png" class="card-img-top" alt="...">
             <div class="card-body">
@@ -44,6 +45,7 @@
               <p class="card-text">Construction &  Maintenance</p>
             </div>
           </div>
+          </a>
         </div>  
         <div class="col-md-4">
           <div class="card">

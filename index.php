@@ -28,7 +28,7 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="index.php"><img src="<?php echo $img; ?>Group--.svg" alt=""></a>
+        <a class="navbar-brand" href="index.php"><img src="<?php echo $img . $expr['logo-text']; ?>" alt=""></a>
         <div class="collapse navbar-collapse nav-mv-p" id="navbarSupportedContent">
             <ul class="navbar-nav nav-mv-c">
                 <li class="nav-item zc-p active" id="f-active">
@@ -95,9 +95,9 @@
       <div class="wrapper">
         <div class="caption">
             <div class="container">
-                        <img class="mx-auto d-block logs" src="<?php echo $img; ?>bricks-logo.svg" alt="BRICKS INTEGRATED ">
+                        <img class="mx-auto d-block logs" src="<?php echo $img . $expr['logo']; ?>" alt="BRICKS INTEGRATED ">
                 <div class="caption-txt">
-                    <h3 class="txt-m">Integrated constructions for commercial, residential and industrial buildings.</h3>
+                    <h3 class="txt-m"><?php echo $expr['caption']; ?></h3>
                 </div>
                 </div>
             </div>
@@ -120,25 +120,23 @@
         </div>
       <!-- End Slider-->
       <!-- Start Footer-->
-        <footer>
+        <footer id="hee">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
-                        <p>The BRICKS INTEGRATED General Trading and Contracting Co. was established in 2011 as a limited liability company with a paid-up capital of KD 1.000.000, BRICKS INTEGRATED General Trading and Contracting Co. is a building leading company works in State of Kuwait as it provides some integrated constructions including commercial, residential and industrial building for projects of private and government sector in State of Kuwait.</p>
+                        <p><?php echo $expr['about-us']; ?></p>
                     </div>
                     <div class="col-md-4 info">
                         <ul>
                             <li>
-                                <b>Sunday- Thursday</b><br/>
-                                09:00AM  - 05:00PM
+                                <?php echo $expr['work-days']; ?><br/>
+                                 <?php echo $expr['work-h']; ?>
                             </li>
                             <li>
-                                AlQibla-Ahmed Al Jaber Street<br/>
-                                Al Zumorrodah Tower-22 floor
+                                <?php echo $expr['address']; ?>
                             </li>
                             <li>
-                                Tel.: +965 2220 6183/6 <br/>
-                                Fax: +965 2220 6188
+                                <?php echo $expr['tel']; ?><span>+965 2220 6183/6</span><br/> <?php echo $expr['fax']; ?><span>+965 2220 6188</span>
                             </li>
                             <li>
                                 <b>info@bricksintegrated.com</b> 
@@ -155,6 +153,9 @@
                             </li>
                             <li>
                                 <a href="#">Services</a>
+                            </li>
+                            <li>
+                                <a href="#">Projects</a>
                             </li>
                             <li>
                                 <a href="#">Conact us</a>    

@@ -37,7 +37,7 @@
                 <li class="nav-item zc-p">
                     <a class="nav-link zc" href="services.php"><?php echo $expr['services']; ?></a>
                 </li>
-                <li class="nav-item zc-p">
+                <li class="nav-item zc-p active">
                     <a class="nav-link zc" href="projects.php"><?php echo $expr['projects']; ?></a>
                 </li>
                 <li class="nav-item zc-p">

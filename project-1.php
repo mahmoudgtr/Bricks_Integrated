@@ -1,6 +1,6 @@
 <?php 
   include 'init.php';
-  include $assets . "headernav.php";
+  include $assets . "headerpro.php";
    ?>
 <!--Start About-->
 <section class="projects-p">
@@ -11,7 +11,7 @@
                 <div class="aboutTxt pt-5">
                     <h5 style="font-size: 23px;">Private Villa</h5>
                     <div>
-                        <div class="border-bottom w-75 my-5"></div>
+                        <div class="border-bottom w-50 my-5"></div>
                         <h5>4 Typical Villas Hatten - Block No.2</h5><br/>
                         <h5>Project Value</h5>
                         <h4 >1,100,000 K.D One million one<br/>
@@ -36,62 +36,58 @@
 </section>
 <section class="project-img">
   <div class="container">
-    <div class="row">
-      <div class="col-sm-3 text-left my-auto">
-        <h5>Projects</h5>
+    <div class="row" id="ro-flow-p">
+      <div class="col-md-3 my-auto" id="ro-flow-1">
+        <a href="projects.php" role="button" ><img id="bb-pp" src="<?php echo $img; ?>arrow-iocn-14px.svg"/>projects</a>
       </div>
-      <div class="col-sm-9">
-        <div class="row">
-          <div class="col-4 col-md-4">
+      <div class="col-md-9 col-sm-12" id="ro-flow-2">
+        <div class="row" id="ro-flow-c">
+          <div class="col-6 col-md-4">
             <div class="img-pp">
-              <img src="<?php echo $img; ?>WASMIYA TOWER VIEWS-10.png">
+              <a href="img/WASMIYA TOWER VIEWS-249.png" data-lightbox="mygallery" data-title="Wasmya"><img class="w-100 h-100" src="img/gallery.png"></a>
             </div>
           </div>
-          <div class="col-4 col-md-4">
+          <div class="col-6 col-md-4">
             <div class="img-pp">
-              <img src="<?php echo $img; ?>WASMIYA TOWER VIEWS-10.png">
+              <a href="img/WASMIYA TOWER VIEWS-12.png" data-lightbox="mygallery"><img class="w-100 h-100" src="img/gallery1.png"></a>
             </div>
           </div>
-          <div class="col-4 col-md-4">
+          <div class="col-6 col-md-4">
             <div class="img-pp">
-              <img src="<?php echo $img; ?>WASMIYA TOWER VIEWS-10.png">
+              <a href="img/WASMIYA TOWER VIEWS-10.png" data-lightbox="mygallery"><img class="w-100 h-100" src="img/gallery2.png"></a>
+            </div>
+          </div>
+            <div class="col-6 col-md-4">
+            <div class="img-pp">
+              <a href="img/WASMIYA TOWER VIEWS-249.png" data-lightbox="mygallery"><img class="w-100 h-100" src="img/gallery.png"></a>
+            </div>
+          </div>
+           <div class="col-6 col-md-4">
+            <div class="img-pp">
+              <a href="img/WASMIYA TOWER VIEWS-249.png" data-lightbox="mygallery"><img class="w-100 h-100" src="img/gallery.png"></a>
+            </div>
+          </div>
+            <div class="col-6 col-md-4">
+            <div class="img-pp">
+              <a href="img/WASMIYA TOWER VIEWS-249.png" data-lightbox="mygallery"><img class="w-100 h-100" src="img/gallery.png"></a>
+            </div>
+          </div>
+            <div class="col-6 col-md-4">
+            <div class="img-pp">
+              <a href="img/WASMIYA TOWER VIEWS-249.png" data-lightbox="mygallery"><img class="w-100 h-100" src="img/gallery.png"></a>
+            </div>
+          </div>
+             <div class="col-6 col-md-4">
+            <div class="img-pp">
+              <a href="img/WASMIYA TOWER VIEWS-249.png" data-lightbox="mygallery"><img class="w-100 h-100" src="img/gallery.png"></a>
+            </div>
+          </div>
+             <div class="col-6 col-md-4">
+            <div class="img-pp">
+              <a href="img/WASMIYA TOWER VIEWS-249.png" data-lightbox="mygallery"><img class="w-100 h-100" src="img/gallery.png"></a>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="img-pp">
-              <img src="<?php echo $img; ?>WASMIYA TOWER VIEWS-10.png">
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="img-pp">
-              <img src="<?php echo $img; ?>WASMIYA TOWER VIEWS-10.png">
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="img-pp">
-              <img src="<?php echo $img; ?>WASMIYA TOWER VIEWS-10.png">
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="img-pp">
-              <img src="<?php echo $img; ?>WASMIYA TOWER VIEWS-10.png">
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="img-pp">
-              <img src="<?php echo $img; ?>WASMIYA TOWER VIEWS-10.png">
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="img-pp">
-              <img src="<?php echo $img; ?>WASMIYA TOWER VIEWS-10.png">
-            </div>
-          </div>
-         </div>
       </div>
     </div>
   </div>

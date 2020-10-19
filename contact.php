@@ -20,7 +20,7 @@
     <div class="map">
         <div class="container-fluid">
             <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6" style="padding: 0!important;">
                         <div class="map-g" >
                         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13912.56635426862!2d48.0205083!3d29.336846!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x665f7665ca8d5c6b!2sBricks%20integrated%20Co!5e0!3m2!1sar!2skw!4v1602144939264!5m2!1sar!2skw" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                         </div>
@@ -65,6 +65,10 @@
                             Al Zumorrodah Tower-22 floor
                         </li>
                         <li>
+                            Tel.: +965 2220 6183/6 <br/>
+                            Fax: +965 2220 6188
+                        </li>
+                        <li>
                             <b>info@bricksintegrated.com</b>
                         </li>
                     </ul>
@@ -81,6 +85,9 @@
                                 <a href="services.php">Services</a>
                             </li>
                             <li>
+                                <a href="projects.php">Projects</a>
+                            </li>
+                            <li>
                                 <a href="#">Conact us</a>    
                             </li>
                         </ul>
@@ -95,5 +102,6 @@
             </div>
         </div>
     </footer>
+    <div class="whatsapp-i"><a href="https:/wa.me/+96566164502" target="_blank"><div class="whatsapp-i-p"></div><img src="img/Icon awesome-whatsapp.svg"></div></a>
     <!-- End Footer -->
 <?php include $assets ."footer.php"; ?>

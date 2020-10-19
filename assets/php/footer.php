@@ -13,6 +13,7 @@
     <script src="<?php echo $js; ?>bootstrap.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="<?php echo $js; ?>simplebar.js"></script>
+    <script src="<?php echo $js; ?>lightbox.min.js"></script>
     <script src="<?php echo $js; ?>main.js"></script>
 </body>
 </html>

@@ -12,13 +12,13 @@
     <meta name="theme-color" content="#1D1D1B">
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32*32">
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16*16">
-    <title>BRICKS INTEGRATED</title>
+    <title><?php echo $expr['title']; ?></title>
     <link href="<?php echo $expr['font']; ?>" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="<?php echo $css; ?>bootstrap.min.css"/>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo $css; ?>simplebar.css"/>
     <link rel="stylesheet" type="text/css" href="<?php echo $css; ?>main.css"/>
-    <?php if($expr['name'] == "ar"){ 
+    <?php if($expr['name'] == "ar-sa"){ 
         echo '<link rel="stylesheet" type="text/css" href="css/rtl/main-rtl.css">' ;}  ?>
 </head>
 <body >
@@ -73,9 +73,9 @@
                     info@bricksintegrated.com 
                 </li>
                 <li class="social">
-                    <a href="#"><img id="f-insta" src="<?php echo $img; ?>Icon-instagram.svg"/></a>
-                    <a href="#"><img src="<?php echo $img; ?>Icon-feather-mail.svg"/></a>
-                    <a href="#"><img src="<?php echo $img; ?>Icon feather-phone-call.svg"/></a>
+                    <a href="https://www.instagram.com/bricksintegrated/" target="_blank"><img id="f-insta" src="<?php echo $img; ?>Icon-instagram.svg"/></a>
+                    <a href="mailto:info@bricksintegrated.com"><img src="<?php echo $img; ?>Icon-feather-mail.svg"/></a>
+                    <a href="tel:0096522206183"><img src="<?php echo $img; ?>Icon feather-phone-call.svg"/></a>
                 </li>
             </ul>
         </div>
@@ -136,7 +136,7 @@
                                 <?php echo $expr['address']; ?>
                             </li>
                             <li>
-                                <?php echo $expr['tel']; ?><span>+965 2220 6183/6</span><br/> <?php echo $expr['fax']; ?><span>+965 2220 6188</span>
+                                <?php echo $expr['tel']; ?>
                             </li>
                             <li>
                                 <b>info@bricksintegrated.com</b> 
@@ -146,26 +146,26 @@
                     <div class="col-md-4">
                         <ul class="links" id="links-f">
                             <li>
-                               <a href="layout/about.php">About</a> 
+                               <a href="about.php"><?php echo $expr['about']; ?></a> 
                             </li>
                             <li>
-                                <a href="#">Portfolio</a>
+                                <a href="B.pdf" target="_blank"><?php echo $expr['portfolio']; ?></a>
                             </li>
                             <li>
-                                <a href="#">Services</a>
+                                <a href="services.php"><?php echo $expr['services']; ?></a>
                             </li>
                             <li>
-                                <a href="#">Projects</a>
+                                <a href="projects.php"><?php echo $expr['projects']; ?></a>
                             </li>
                             <li>
-                                <a href="#">Conact us</a>    
+                                <a href="contact.php"><?php echo $expr['contact-us']; ?></a>    
                             </li>
                         </ul>
                         <ul class="links" id="links-s">
                             <li class="social">
-                                <a href="#"><img id="f-insta" src="<?php echo $img; ?>Icon-instagram.svg"/></a>
-                                <a href="#"><img src="<?php echo $img; ?>Icon-feather-mail.svg"/></a>
-                                <a href="#"><img src="<?php echo $img; ?>Icon feather-phone-call.svg"/></a>
+                                <a href="https://www.instagram.com/bricksintegrated/" target="_blank"><img id="f-insta" src="<?php echo $img; ?>Icon-instagram.svg"/></a>
+                                <a href="mailto:info@bricksintegrated.com"><img src="<?php echo $img; ?>Icon-feather-mail.svg"/></a>
+                                <a href="tel:00965 2220 6183"><img src="<?php echo $img; ?>Icon feather-phone-call.svg"/></a>
                             </li>
                         </ul>
                     </div>

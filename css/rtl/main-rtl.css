@@ -31,7 +31,7 @@ body{
 @media (min-width: 992px){
 .navbar-nav .zc-p {
 	padding-right: 0;
-    padding-left: 4rem;
+    padding-left: 3rem;
 	}
 	.nav-lang{
     border-left: 0;
@@ -59,7 +59,7 @@ body{
 }
 .nav-mv-c::before{
 	right: 14%;
-	background-image: url(../../img/logo-text-b.svg);
+	background-image: url(../../img/logo-arabic-text-black.svg);
 }
 #bc-n {
 	right: auto;
@@ -96,7 +96,41 @@ width: 224px;
 /*End Ar navbar*/
 
 /*Start footer*/
-footer{
+.about, .obj, .project ,footer{
 	text-align: right;
 }
+@media (max-width: 767.98px) {
+    .copyright {
+        font-size: 14px !important;
+    }
+}
 /*End footer*/
+
+/*Start About*/
+.about #ar-u{
+    transform: rotate(180deg);
+}
+.rotate-u {
+    transform: rotate(-90deg)!important;
+}
+.obj button{
+    text-align: right;
+}
+.chev-po {
+    right: auto;
+    left: 32px;
+}
+.b-card-show.changed::after, .b-card-show::after {
+    left: auto;
+    right: 35px;
+}
+#j {
+    transform: rotate(-180deg);
+}
+.rotate-a, .rotate {
+    transform: rotate(90deg)!important;
+}
+.project .card::before {
+	left: auto;
+    right: 22px;
+/*End About*/

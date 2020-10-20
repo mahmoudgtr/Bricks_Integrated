@@ -52,43 +52,41 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 fo-p">
-                    <p id="fo-c">The BRICKS INTEGRATED General Trading and Contracting Co. was established in 2011 as a limited liability company with a paid-up capital of KD 1.000.000, BRICKS INTEGRATED General Trading and Contracting Co. is a building leading company works in State of Kuwait as it provides some integrated constructions including commercial, residential and industrial building for projects of private and government sector in State of Kuwait.</p>
+                    <p id="fo-c"><p><?php echo $expr['about-us']; ?></p></p>
                 </div>
                 <div class="col-md-4 info">
                     <ul>
                         <li>
-                            <b>Sunday- Thursday</b><br/>
-                            09:00AM  - 05:00PM
+                            <b><?php echo $expr['work-days']; ?></b><br/>
+                             <?php echo $expr['work-h']; ?>
                         </li>
                         <li>
-                            AlQibla-Ahmed Al Jaber Street<br/>
-                            Al Zumorrodah Tower-22 floor
+                            <?php echo $expr['address']; ?>
                         </li>
                         <li>
-                            Tel.: +965 2220 6183/6 <br/>
-                            Fax: +965 2220 6188
+                            <?php echo $expr['tel']; ?>
                         </li>
                         <li>
-                            <b>info@bricksintegrated.com</b>
+                            <b>info@bricksintegrated.com</b> 
                         </li>
                     </ul>
                 </div>
                 <div class="col-md-4">
                         <ul class="links " id="links-f">
                             <li>
-                               <a href="layout/about.php">About</a> 
+                               <a href="about.php"><?php echo $expr['about']; ?></a> 
                             </li>
                             <li>
-                                <a href="B.pdf" target="_blank">Portfolio</a>
+                                <a href="B.pdf" target="_blank"><?php echo $expr['portfolio']; ?></a>
                             </li>
                             <li>
-                                <a href="services.php">Services</a>
+                                <a href="services.php"><?php echo $expr['services']; ?></a>
                             </li>
                             <li>
-                                <a href="projects.php">Projects</a>
+                                <a href="projects.php"><?php echo $expr['projects']; ?></a>
                             </li>
                             <li>
-                                <a href="#">Conact us</a>    
+                                <a href="contact.php"><?php echo $expr['contact-us']; ?></a>    
                             </li>
                         </ul>
                         <ul class="links" id="links-s">

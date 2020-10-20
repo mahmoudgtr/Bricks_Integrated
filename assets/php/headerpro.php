@@ -15,7 +15,7 @@
     <link rel="stylesheet" type="text/css" href="css/lightbox.min.css"/>
     <link rel="stylesheet" type="text/css" href="<?php echo $css; ?>simplebar.css"/>
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
-    <?php if($expr['name'] == "ar"){ 
+    <?php if($expr['name'] == "ar-sa"){ 
     echo '<link rel="stylesheet" type="text/css" href="css/rtl/main-rtl.css">' ;}  ?>
 </head>
 <body>

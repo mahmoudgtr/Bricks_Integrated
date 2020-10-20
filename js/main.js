@@ -53,15 +53,6 @@ $(function() {
       }
     });
 
-    /* Hide Read more button*/
-
-  
-      $("#readM").click(function(){
-         var text = $('#readM').text();
-      $('#readM').text(
-        text == "Read less" ? "Read more" : "Read less");
-      $('#ar-u').toggleClass("rotate-u");
-      });
 
 
     /* collapse*/
@@ -72,6 +63,8 @@ $(function() {
       /*obj*/
       $('#item1').on("click",function(){
         $('#j').toggleClass("rotate-a");
+        $('#headingTwo').removeClass("changed");
+        $('#headingThree').removeClass("changed");
         if($("#item1").attr("aria-expanded","true")){
           $('#headingOne').toggleClass('changed');
         }
@@ -80,6 +73,8 @@ $(function() {
           /*vision*/
           $('#item2').on("click",function(){
             $('#v').toggleClass("rotate");
+            $('#headingOne').removeClass("changed");
+            $('#headingThree').removeClass("changed");
             if($("#item2").attr("aria-expanded","true")){
               $('#headingTwo').toggleClass('changed');
               }
@@ -89,6 +84,8 @@ $(function() {
       /*obj*/
       $('#item3').on("click",function(){
         $('#m').toggleClass("rotate");
+        $('#headingOne').removeClass("changed");
+        $('#headingTwo').removeClass("changed");
         if($("#item3").attr("aria-expanded","true")){
           $('#headingThree').toggleClass('changed');
         }
@@ -129,3 +126,5 @@ $(this).toggleClass("changed");
       'positionFromTop': 180,
       'showImageNumberLabel': false,
     })
+
+    

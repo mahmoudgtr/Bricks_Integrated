@@ -438,7 +438,9 @@ body {
     transform: scale(1.2);
     transition: .4s;
 }
-
+.navbar-toggler{
+    padding: 0;
+}
 .navbar-dark .navbar-toggler-icon {
     background-image: url("../img/Icon-feather-menu.svg");
 }
@@ -964,6 +966,7 @@ font-weight: 600;
 
 .contact .aboutTxt {
     max-width: 450px;
+    margin-right: auto;
 }
 
 .contact .aboutTxt h5 {
@@ -979,7 +982,7 @@ font-weight: 600;
     font-size: 16px;
     font-weight: bold;
     max-width: 400px;
-    color: rgba(255, 255, 255, 0.5);
+    color: #ccc;
     line-height: 2rem;
     margin-bottom: 50px;
 }

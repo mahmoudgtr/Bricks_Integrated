@@ -1,6 +1,7 @@
 <?php 
   include 'init.php';
   include $assets . "headerpro.php";
+  include "searchengine.php"
    ?>
 <!--Start About-->
 <section class="projects-p">
@@ -9,19 +10,18 @@
         <div class="row" id="row-flow">
             <div class="col-lg-6 abouttxt-p">
                 <div class="aboutTxt pt-5">
-                    <h5 style="font-size: 23px;">Private Villa</h5>
+                    <h5 style="font-size: 23px;"><?php echo $expr['p-kind']; ?></h5>
                     <div>
                         <div class="border-bottom w-50 my-5"></div>
-                        <h5>4 Typical Villas Hatten - Block No.2</h5><br/>
-                        <h5>Project Value</h5>
-                        <h4 >1,100,000 K.D One million one<br/>
-                        hundred thousand</h4>
-                        <h5>Duration</h5>
-                        <h4>One and half year</h4>
-                        <h5>Starting Date</h5>
-                        <h4>November - 2013</h4>
-                        <h5>Completion Date</h5>
-                        <h4>May - 2015</h4>                     
+                        <h5><?php echo $expr['p-address']; ?></h5><br/>
+                        <h5><?php echo $expr['p-value']; ?></h5>
+                        <h4 ><?php echo $expr['p-value-p']; ?></h4>
+                        <h5><?php echo $expr['p-duration']; ?></h5>
+                        <h4><?php echo $expr['p-duration-p']; ?></h4>
+                        <h5><?php echo $expr['p-start']; ?></h5>
+                        <h4><?php echo $expr['p-start-p']; ?></h4>
+                        <h5><?php echo $expr['p-comp']; ?></h5>
+                        <h4><?php echo $expr['p-comp-p']; ?></h4>                     
                     </div>
                 </div>
             </div>
@@ -38,7 +38,7 @@
   <div class="container">
     <div class="row" id="ro-flow-p">
       <div class="col-md-3 my-auto" id="ro-flow-1">
-        <a href="projects.php" role="button" ><img id="bb-pp" src="<?php echo $img; ?>arrow-iocn-14px.svg"/>projects</a>
+        <a href="projects.php" role="button" ><img id="bb-pp" src="<?php echo $img; ?>arrow-iocn-14px.svg"/><?php echo $expr['projects']; ?></a>
       </div>
       <div class="col-md-9 col-sm-12" id="ro-flow-2">
         <div class="row" id="ro-flow-c">

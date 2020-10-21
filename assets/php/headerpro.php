@@ -1,4 +1,4 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="<?php echo $expr['name']; ?>" dir="<?php echo $expr['dirction']; ?>">
 <head>
     <meta charset="UTF-8">
@@ -53,7 +53,7 @@
                     </div>        
                 </li>
                  <li class="nav-item" id="bc-n">
-                    <a class="nav-link" href="#" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><img src="<?php echo $img; ?>Icon ionic-ios-close.svg"/></a>      
+                    <a class="nav-link" href="#" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><img src="<?php echo $img; ?>Icon ionic-ios-close.svg"/></a>      
                 </li>
             </ul>
             <ul class="navbar-nav links-nav info-nav">
@@ -68,9 +68,9 @@
                     info@bricksintegrated.com 
                 </li>
                 <li class="social nav-item">
-                    <a href="#"><img id="f-insta" src="<?php echo $img; ?>Icon-instagram.svg"/></a>
-                    <a href="#"><img src="<?php echo $img; ?>Icon-feather-mail.svg"/></a>
-                    <a href="#"><img src="<?php echo $img; ?>Icon feather-phone-call.svg"/></a>
+                    <a href="https://www.instagram.com/bricksintegrated/" target="_blank"><img  id="f-insta" src="<?php echo $img; ?>Icon-instagram.svg"/></a>
+                    <a href="mailto:info@bricksintegrated.com"><img src="<?php echo $img; ?>Icon-feather-mail.svg"/></a>
+                    <a href="tel:00965 2220 6183"><img src="<?php echo $img; ?>Icon feather-phone-call.svg"/></a>
                 </li>
             </ul>
         </div>

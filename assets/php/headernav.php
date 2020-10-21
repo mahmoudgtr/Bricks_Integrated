@@ -1,5 +1,7 @@
     <?php 
         include "init.php";
+        include "searchengine.php"
+
         ?>
 
 <!DOCTYPE html>
@@ -49,15 +51,15 @@
             </ul>
             <ul class="navbar-nav " id="bs-n">
                 <li class="nav-item">
-                    <a class="nav-link  apper" href="#"><img id="search-i"/></a>
-                    <div class="searchbox">
-                        <input type="text">
-                        <input type="button" value="<?php echo $expr['search']; ?>" >
-                    </div>        
+                    <a class="nav-link  apper" href="javascript:void(0)"><img id="search-i"/></a>
+                    <form class="searchbox" action="about.php" method="post">
+                        <input type="text" name="search">
+                        <input type="submit" name="submit1" value="<?php echo $expr['search']; ?>" >
+                    </form>        
                 </li>
 
                  <li class="nav-item" id="bc-n">
-                    <a class="nav-link" href="#" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><img src="<?php echo $img; ?>Icon ionic-ios-close.svg"/></a>      
+                    <a class="nav-link" href="#" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><img src="<?php echo $img; ?>Icon ionic-ios-close.svg"/></a>      
                 </li>
             </ul>
 

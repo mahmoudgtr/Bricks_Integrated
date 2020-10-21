@@ -1,11 +1,14 @@
     <?php 
         include "init.php";
+        include "searchengine.php"
         ?>
 
 <!DOCTYPE html>
 <html lang="<?php echo $expr['name']; ?>" dir="<?php echo $expr['dirction']; ?>">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="description" content="<?php echo $expr['about-us']; ?>">
+    <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="favicon.ico">
@@ -57,7 +60,7 @@
                 </li>
 
                  <li class="nav-item" id="bc-n">
-                    <a class="nav-link" href="#" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><img src="<?php echo $img; ?>Icon ionic-ios-close.svg"/></a>      
+                    <a class="nav-link" href="#" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><img src="<?php echo $img; ?>Icon ionic-ios-close.svg"/></a>      
                 </li>
             </ul>
 

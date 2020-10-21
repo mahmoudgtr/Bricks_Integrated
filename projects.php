@@ -9,11 +9,10 @@
         <div class="row" id="row-flow">
             <div class="col-lg-6 abouttxt-p">
                 <div class="aboutTxt pt-5">
-                    <h5>Wasmya Tower</h5>
+                    <h5><?php echo $expr['project-1']; ?></h5>
                     <div class="caption-about">
                         <div class="border-bottom w-75 my-5"></div>
-                        <h4 class="text show-more">Bricks Integrated is characterized by its delivery and 
-                        performing the projects with authorized and approved systems and focusing on meeting the international standards and requirements which pave the way for more growth</h4>
+                        <h4 class="text show-more"><?php echo $expr['about-us']; ?></h4>
                     </div>
                 </div>
             </div>
@@ -30,7 +29,7 @@
     <div class="container">
      <div  class="ss-p">
           <div class="ss-c">
-           <h6 class=>Projects</h6>
+           <h6 class=><?php echo $expr['projects']; ?></h6>
            <div class="bo-b"><div class="bo-c"></div></div>
           </div>
       </div>
@@ -41,8 +40,8 @@
           <div class="card" >
             <img src="<?php echo $img; ?>MaskGroup4.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h6>Wasmiya Tower</h6>
-              <p class="card-text">Construction &  Maintenance</p>
+              <h6><?php echo $expr['project-1']; ?></h6>
+              <p class="card-text"><?php echo $expr['project-1-h']; ?></p>
             </div>
           </div>
           </a>
@@ -51,8 +50,8 @@
           <div class="card">
             <img src="<?php echo $img; ?>MaskGroup2.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h6>Wasmiya Tower</h6>
-              <p class="card-text">Construction &  Maintenance</p>
+              <h6><?php echo $expr['project-1']; ?></h6>
+              <p class="card-text"><?php echo $expr['project-1-h']; ?></p>
             </div>
           </div>
         </div>
@@ -60,8 +59,8 @@
           <div class="card">
             <img src="<?php echo $img; ?>MaskGroup3.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h6>Wasmiya Tower</h6>
-              <p class="card-text">Construction &  Maintenance</p>
+              <h6><?php echo $expr['project-1']; ?></h6>
+              <p class="card-text"><?php echo $expr['project-1-h']; ?></p>
             </div>
           </div>
         </div>       
@@ -71,8 +70,8 @@
           <div class="card" >
             <img src="<?php echo $img; ?>MaskGroup4.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h6>Wasmiya Tower</h6>
-              <p class="card-text">Construction &  Maintenance</p>
+              <h6><?php echo $expr['project-1']; ?></h6>
+              <p class="card-text"><?php echo $expr['project-1-h']; ?></p>
             </div>
           </div>
         </div>  
@@ -80,8 +79,8 @@
           <div class="card">
             <img src="<?php echo $img; ?>MaskGroup2.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h6>Wasmiya Tower</h6>
-              <p class="card-text">Construction &  Maintenance</p>
+              <h6><?php echo $expr['project-1']; ?></h6>
+              <p class="card-text"><?php echo $expr['project-1-h']; ?></p>
             </div>
           </div>
         </div>
@@ -89,8 +88,8 @@
           <div class="card">
             <img src="<?php echo $img; ?>MaskGroup3.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h6>Wasmiya Tower</h6>
-              <p class="card-text">Construction &  Maintenance</p>
+              <h6><?php echo $expr['project-1']; ?></h6>
+              <p class="card-text"><?php echo $expr['project-1-h']; ?></p>
             </div>
           </div>
         </div>       
@@ -100,8 +99,8 @@
           <div class="card" >
             <img src="<?php echo $img; ?>MaskGroup4.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h6>Wasmiya Tower</h6>
-              <p class="card-text">Construction &  Maintenance</p>
+              <h6><?php echo $expr['project-1']; ?></h6>
+              <p class="card-text"><?php echo $expr['project-1-h']; ?></p>
             </div>
           </div>
         </div>  
@@ -109,8 +108,8 @@
           <div class="card">
             <img src="<?php echo $img; ?>MaskGroup2.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h6>Wasmiya Tower</h6>
-              <p class="card-text">Construction &  Maintenance</p>
+              <h6><?php echo $expr['project-1']; ?></h6>
+              <p class="card-text"><?php echo $expr['project-1-h']; ?></p>
             </div>
           </div>
         </div>
@@ -118,8 +117,8 @@
           <div class="card">
             <img src="<?php echo $img; ?>MaskGroup3.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h6>Wasmiya Tower</h6>
-              <p class="card-text">Construction &  Maintenance</p>
+              <h6><?php echo $expr['project-1']; ?></h6>
+              <p class="card-text"><?php echo $expr['project-1-h']; ?></p>
             </div>
           </div>
         </div>       
@@ -129,8 +128,8 @@
           <div class="card" >
             <img src="<?php echo $img; ?>MaskGroup4.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h6>Wasmiya Tower</h6>
-              <p class="card-text">Construction &  Maintenance</p>
+              <h6><?php echo $expr['project-1']; ?></h6>
+              <p class="card-text"><?php echo $expr['project-1-h']; ?></p>
             </div>
           </div>
         </div>  
@@ -138,8 +137,8 @@
           <div class="card">
             <img src="<?php echo $img; ?>MaskGroup2.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h6>Wasmiya Tower</h6>
-              <p class="card-text">Construction &  Maintenance</p>
+              <h6><?php echo $expr['project-1']; ?></h6>
+              <p class="card-text"><?php echo $expr['project-1-h']; ?></p>
             </div>
           </div>
         </div>
@@ -147,8 +146,8 @@
           <div class="card">
             <img src="<?php echo $img; ?>MaskGroup3.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h6>Wasmiya Tower</h6>
-              <p class="card-text">Construction &  Maintenance</p>
+              <h6><?php echo $expr['project-1']; ?></h6>
+              <p class="card-text"><?php echo $expr['project-1-h']; ?></p>
             </div>
           </div>
         </div>       

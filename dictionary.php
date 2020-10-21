@@ -55,6 +55,37 @@ $dictionary = [
         "project-2-h" => "Construction &  Maintenance",
         "project-3-h" => "Construction &  Maintenance",
         "v-project" => "VIEW PROJECTS",
+
+        //Services
+        "services-h" => "Innovative and Creative Solutions",
+        "services-p" => "Committed to provide an additional value for its customers through innovation and uniqueness, and internationally leading.",
+        "services-1" => "Offers innovative and creative solutions for commercial, residential and industrial buildings to serve the private and public domain in State of Kuwait.",
+        "services-2" => "Provides the highest quality while dealing with the best housing projects and provides the technical experience together with achieving the desired results.",
+        "services-3" => "Real estate development.",
+        "services-4" => "Studying the drawings to meet the clients needs and requirements.",
+        "services-5" => "Carry out the projects using the recent updated methods and internationally approved programs.",
+        "services-6" => "Real Renovation, Extensions & turn key contracts. Manage and maintain the projects. development.",
+
+        //projects
+        "p-kind" => "Private Villa",
+        "p-address" => "4 Typical Villas Hatten - Block No.2",
+        "p-value" => "Project Value",
+        "p-value-p" => "1,100,000 K.D<br/>One million one hundred thousand",
+        "p-duration" => "Duration",
+        "p-duration-p" => "One and half year",
+        "p-start" => "Starting Date",
+        "p-start-p" => "November - 2013",
+        "p-comp" => "Completion Date",
+        "p-comp-p" => "May - 2015",
+
+        //contact
+        "contact-h" => "Lets get in Touch!",
+        "contact-p" => "Open to conversations that lead to innovative and collaborative projects to fulfill.",
+        "f-name" => "Name",
+        "f-email" => "Email",
+        "f-message" => "Message",
+        "f-send" => "Send Message",
+
 	],
 
 	"AR" => [
@@ -135,6 +166,39 @@ $dictionary = [
         "project-2-h" => "الإنشاء والصيانة",
         "project-3-h" => "الإنشاء والصيانة",
         "v-project" => "عرض المشاريع",
+
+        //Services
+        "services-h" => "حلول مبتكرة وإبداعية",
+        "services-p" => "نلتزم بتوفير قيمة إضافية لعملائنا من خلال الابتكار والتفرد والريادة على المستوى الدولي.",
+        "services-1" => "توفر الحلول المبتكرة للمباني التجارية والسكنية والصناعية لكي تخدم
+						القطاع الخاص والعام في الكويت ",
+        "services-2" => "توفير الجودة العالية في المشاريع السكنية وتقديم الخبرات الفنية جنبا إلى
+جنب لتحقيق النتائج المرجوة",
+        "services-3" => "التطوير العقاري",
+        "services-4" => "دراسه المخططات لتلبيه احتياجات العمل",
+        "services-5" => "تنفيذ المشاريع باحدث االساليب والبرامج المعتمده عالميا",
+        "services-6" => "تشطيب على المفتاح<br/>إضافة أدوار<br/>ترميمات عامة<br/>إداره وصيانه المشاريع",
+
+        //projects
+        "p-kind" => "فيلا خاص",
+        "p-address" => "4 الفلل النموذجية حطين - قطعة 2",
+        "p-value" => "قيمة المشروع",
+        "p-value-p" => "1,000,100 د.ك<br/>مليون ومائة ألف دينار كويتي",
+        "p-duration" => "مدة المشروع",
+        "p-duration-p" => "عام ونصف",
+        "p-start" => "تاريــخ البدء",
+        "p-start-p" => "نوفمبر ٢٠١٣",
+        "p-comp" => "تاريــخ  الانتهاء",
+        "p-comp-p" => "مايو 2015",
+
+        //contact
+        "contact-h" => "دعنا نتواصل!",
+        "contact-p" => "فتح للمحادثات التي تؤدي إلى مشاريع إبداعية وتعاونية يجب تنفيذها.",
+        "f-name" => "الاسم",
+        "f-email" => "البريد الالكتروني",
+        "f-message" => "الرسالة",
+        "f-send" => "إرسال رسالة",
+
 	],
 ];
 

@@ -6,11 +6,11 @@
     <!-- Start Contact-->
     <div class="contact">
         <div class="container">
-        <div class="aboutTxt mr-auto pt-5">
-                    <h5>Lets get in Touch!</h5>
+        <div class="aboutTxt pt-5">
+                    <h5><?php echo $expr['contact-h']; ?></h5>
                     <div>
                         <div class="border-bottom w-25 my-5"></div>
-                        <h4 class="text">Open to conversations that lead to innovative and collaborative projects to fulfill.</h4>
+                        <h4 class="text"><?php echo $expr['contact-p']; ?></h4>
                     </div>
                 </div>
         </div>
@@ -28,18 +28,18 @@
                     <div class="col-md-6">
                         <form action="" class="form-m">
                             <div class="form-group">
-                                <label for="InputNmae">Name</label>
+                                <label for="InputNmae"><?php echo $expr['f-name']; ?></label>
                                 <input type="text" class="form-control" id="InputName" autocomplete="false">
                             </div>
                             <div class="form-group">
-                                <label for="InputEmail">Email</label>
+                                <label for="InputEmail"><?php echo $expr['f-email']; ?></label>
                                 <input type="email" class="form-control" id="InputEmail">
                             </div>
                             <div class="form-group">
-                                <label for="InputText">Message</label>
+                                <label for="InputText"><?php echo $expr['f-message']; ?></label>
                                 <input type="text" class="form-control" id="InputMessage">
                             </div>
-                            <button type="submit" class="btn-cstm">Send Message</button>
+                            <button type="submit" class="btn-cstm"><?php echo $expr['f-send']; ?></button>
                         </form>
                     </div>
                 </div>
@@ -91,9 +91,9 @@
                         </ul>
                         <ul class="links" id="links-s">
                             <li class="social">
-                                <a href="#"><img  id="f-insta" src="<?php echo $img; ?>Icon-instagram.svg"/></a>
-                                <a href="#"><img src="<?php echo $img; ?>Icon-feather-mail.svg"/></a>
-                                <a href="#"><img src="<?php echo $img; ?>Icon feather-phone-call.svg"/></a>
+                                <a href="https://www.instagram.com/bricksintegrated/" target="_blank"><img  id="f-insta" src="<?php echo $img; ?>Icon-instagram.svg"/></a>
+                                <a href="mailto:info@bricksintegrated.com"><img src="<?php echo $img; ?>Icon-feather-mail.svg"/></a>
+                                <a href="tel:00965 2220 6183"><img src="<?php echo $img; ?>Icon feather-phone-call.svg"/></a>
                             </li>
                         </ul>
                 </div>

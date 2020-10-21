@@ -133,4 +133,57 @@ width: 224px;
 .project .card::before {
 	left: auto;
     right: 22px;
+}
 /*End About*/
+
+/*Start services*/
+
+@media (min-width: 992px){
+.aboutImg-o .aboutImg {
+    margin-left:0;
+    margin-right: auto;
+}
+
+.aboutTxt-s {
+	margin-left: 0;
+    margin-right: 100px;
+
+}
+}
+.project-img #ro-flow-2{ 
+	order: 1;
+}
+.project-img #ro-flow-1{
+	order: 2;
+}
+/*Start services*/
+
+
+/*Start Contact page*/
+.contact, .map{
+	text-align: right;
+}
+.contact .aboutTxt {
+    margin-right: 0;
+    margin-left: auto;
+}
+.map .form-m .btn-cstm:after {
+	left: 0;
+    right: 5%;
+}
+.fo-p #fo-c::before {
+    left: 0;
+    right: -117px;
+    background-image: url(../../img/logo-arabic-n.svg);
+    width: 100px;
+    height: 280px;
+}
+
+/*Start Contact mobile v*/
+@media (min-width:1018px) and (max-width:1400px) {
+    footer .fo-p #fo-c::before {
+        display: none;
+    }
+}
+
+/*End Contact page*/

@@ -85,9 +85,7 @@
             <div class="nav-lang">
                 <?php foreach ($dictionary as $key => $lang_dict): ?>
                 <?php if ($current_lang != $key): ?>
-                    <div>
-                        <a  href="lang.php?change=<?php echo $key?>"><?php echo $lang_dict['value'] ?></a>
-                    </div>
+                        <a  href="lang.php?change=<?php echo $key?>"><span><?php echo $lang_dict['value'] ?></span></a>
                 <?php endif ?>
                 <?php endforeach ?>
             </div>

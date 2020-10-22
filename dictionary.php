@@ -96,7 +96,7 @@ $dictionary = [
 		"align" => "right",
 		"font" => "https://fonts.googleapis.com/css2?family=Tajawal&display=swap",
 		"logo-text" => "logo-arabic-text.svg",
-		"logo" => "logo-arabic-n.svg",
+		"logo" => "logo-arabic-h.svg",
 
 
 		// Expressions

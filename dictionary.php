@@ -9,6 +9,7 @@ $dictionary = [
 		"font" => "https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap",
 		"logo-text" => "Group--.svg",
 		"logo" => "bricks-logo.svg",
+		"project-img" => "1050_x_750_banner-en.jpg",
 
 		// Expressions
 		//navbar
@@ -95,8 +96,9 @@ $dictionary = [
 		"dirction" => "rtl",
 		"align" => "right",
 		"font" => "https://fonts.googleapis.com/css2?family=Tajawal&display=swap",
-		"logo-text" => "logo-arabic-text.svg",
-		"logo" => "logo-arabic-h.svg",
+		"logo-text" => "brickslogo-ar-text-01.svg",
+		"logo" => "brickslogo-ar.svg",
+		"project-img" => "1050_x_750_banner-ar.jpg",
 
 
 		// Expressions

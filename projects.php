@@ -18,7 +18,7 @@
             </div>
             <div class="col-lg-6 aboutImg-p">
                 <div class="aboutImg">
-                    <img class="w-100" src="<?php echo $img; ?>WASMIYA TOWER VIEWS-10.png"/>
+                    <img class="w-100" src="<?php echo $img . $expr['project-img']; ?>"/>
                 </div>
             </div>
         </div>
